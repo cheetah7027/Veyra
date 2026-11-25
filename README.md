@@ -125,3 +125,13 @@ npm run build
 # Preview production build
 npm run preview
 ```
+
+---
+
+## Deployment (GitHub Pages)
+
+This repository includes an automated GitHub Actions workflow at `.github/workflows/deploy.yml` configured for `base: '/Veyra/'`.
+
+1. On GitHub, open **Settings → Pages**.
+2. Under **Build and deployment → Source**, select **GitHub Actions**.
+3. Every push to `main` builds `dist/` and deploys to `https://cheetah7027.github.io/Veyra/`.

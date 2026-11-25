@@ -153,7 +153,7 @@ export default function LandingPage({ onEnterHr, onEnterCandidate }) {
           <div className="lg:col-span-6">
             <div className="mx-auto max-w-lg overflow-hidden rounded-[32px] shadow-[0_14px_40px_rgba(30,41,59,0.10)]">
               <video
-                src="/assets/media/veyra-hero.mp4"
+                src={`${import.meta.env.BASE_URL}assets/media/veyra-hero.mp4`}
                 autoPlay
                 loop
                 muted

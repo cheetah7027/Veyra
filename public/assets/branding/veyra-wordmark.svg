@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 40" fill="none">
+  <rect x="2" y="4" width="32" height="32" rx="10" fill="url(#veyraGrad)"/>
+  <path d="M11 13L18 27L25 13" stroke="white" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="18" cy="11.5" r="2" fill="#DDD6FE"/>
+  <text x="44" y="27" font-family="Manrope, Inter, sans-serif" font-weight="800" font-size="22" letter-spacing="-0.03em" fill="#1E4AD9">VEYRA</text>
+  <defs>
+    <linearGradient id="veyraGrad" x1="2" y1="4" x2="34" y2="36" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1E4AD9"/>
+      <stop offset="1" stop-color="#8B7AE8"/>
+    </linearGradient>
+  </defs>
+</svg>
